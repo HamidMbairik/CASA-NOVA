@@ -4,7 +4,7 @@ Landing page for a fictional boutique hotel. Built as a portfolio piece.
 
 React, Vite, plain CSS with custom properties. The colour palette comes from the CASA NOVA brand system.
 
-Live site: **https://casa-nova.vercel.app/**
+Live site: **https://casa-nova-gamma.vercel.app/**
 
 ## Screenshots
 
