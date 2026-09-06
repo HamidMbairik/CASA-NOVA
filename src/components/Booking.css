@@ -1,0 +1,103 @@
+.booking {
+  background:
+    radial-gradient(
+      circle at 75% 30%,
+      rgba(var(--cn-accent-rgb), 0.22),
+      transparent 45%
+    ),
+    var(--cn-primary);
+  color: var(--cn-bg);
+  text-align: center;
+}
+
+.booking-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking-label {
+  color: var(--cn-accent-light);
+}
+
+.booking-title {
+  font-size: clamp(2rem, 4.5vw, 3.2rem);
+  color: var(--cn-bg);
+  margin-bottom: var(--cn-space-2);
+}
+
+.booking-copy {
+  color: var(--cn-accent-light);
+  max-width: 44ch;
+  margin-bottom: var(--cn-space-5);
+}
+
+.booking-form {
+  width: min(560px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: var(--cn-space-3);
+  text-align: left;
+}
+
+.booking-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--cn-space-3);
+}
+
+.booking-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 1;
+}
+
+.booking-field span {
+  font-size: 0.72rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--cn-accent-light);
+}
+
+.booking-field input,
+.booking-field select,
+.booking-field textarea {
+  font-family: var(--cn-font-sans);
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: var(--cn-text);
+  background: var(--cn-bg);
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 0.7rem 0.85rem;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.booking-field input:focus,
+.booking-field select:focus,
+.booking-field textarea:focus {
+  outline: none;
+  border-color: var(--cn-accent);
+  box-shadow: 0 0 0 3px rgba(var(--cn-accent-rgb), 0.25);
+}
+
+.booking-submit {
+  align-self: center;
+  margin-top: var(--cn-space-1);
+  cursor: pointer;
+}
+
+.booking-thanks {
+  color: var(--cn-accent-light);
+  font-family: var(--cn-font-serif);
+  font-size: 1.25rem;
+}
+
+@media (max-width: 520px) {
+  .booking-row {
+    grid-template-columns: 1fr;
+  }
+}
