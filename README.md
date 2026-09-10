@@ -59,3 +59,8 @@ Defined once in `:root` and referenced everywhere. No stray hex values.
 - The booking form is front-end only. On submit it opens the visitor's email client with a pre-filled reservation message; there's no backend behind it.
 - The sticky header isn't offset by `scroll-mt`, so section anchors scroll to the very top of each section. If the header height changes, revisit anchor positioning.
 - The colour palette follows the 60/30/10 rule — warm ivory as the base, deep olive for primary actions, gold reserved for luxury details.
+
+
+---
+
+**Built from scratch by [Hamid Mbairik](https://github.com/HamidMbairik) · [CorgaDev](https://corgadev.vercel.app) — custom websites, no templates.**
